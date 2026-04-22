@@ -1,0 +1,23 @@
+Rapport du Lab 0 — Mise en route
+Nom : Faye
+Prénom : El Hadji Malick
+Classe : DUT 1 INFO
+1. Ce que j’ai fait
+Dans ce Lab, j’ai commencé par installer les outils nécessaires au développement web. J’ai téléchargé et installé Visual Studio Code, puis j’ai ajouté l’extension Live Server qui permet d’afficher automatiquement les modifications d’une page web dans le navigateur.
+Ensuite, j’ai installé Git et vérifié son installation avec la commande git --version. J’ai configuré mon identité Git en renseignant mon nom et mon adresse email avec les commandes git config --global user.name et git config --global user.email.
+Après cela, j’ai créé un compte GitHub et un dépôt nommé jang-afrig. J’ai récupéré l’URL du dépôt pour pouvoir le cloner sur mon ordinateur. J’ai ensuite créé un dossier de travail et utilisé la commande git clone pour obtenir une copie locale du dépôt.
+Dans Visual Studio Code, j’ai ouvert ce dossier et créé un fichier index.html. J’y ai écrit une première page HTML simple contenant un message. Grâce à Live Server, j’ai pu visualiser immédiatement le résultat dans mon navigateur.
+Enfin, j’ai réalisé mon premier cycle Git :
+•	git status pour vérifier les fichiers
+•	git add index.html pour préparer le fichier
+•	git commit -m "message" pour enregistrer les modifications
+•	git push pour envoyer le fichier sur GitHub
+J’ai vérifié que mon fichier était bien visible dans mon dépôt en ligne.
+
+2. Difficultés rencontrées
+J’ai fait quelques erreurs de syntaxe sur certaines commandes
+Quant au Token, il m’a fallu un peu de temps avant de pouvoir le créer.
+3. Comment j’ai résolu ces difficultés
+Pour résoudre ces problèmes, j’ai relu attentivement les instructions du Lab et corrigé les erreurs dans mes commandes.
+4. Lien vers mon repo Github
+jang-afrig/index.html at main · malick-faye/jang-afrig
