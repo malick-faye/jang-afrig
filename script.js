@@ -31,8 +31,10 @@ function statutMajorite(age) {
 return age >= 18 ? "majeur" : "mineur";
 }
 console.log(statutMajorite(20)); // "majeur"
-const pays = ["Sénégal", "Mali", "Ghana", "Kenya"];
+const pays = ["Sénégal", "Mali", "Ghana", "Kenya", "Maroc"];
 for (const nom of pays) {
 console.log(`Pays africain : ${nom}`);
 }
 console.log(`Il y a ${pays.length} pays dans la liste.`);
+console.table(pays);
+console.log(choisirAuHasard(pays));
